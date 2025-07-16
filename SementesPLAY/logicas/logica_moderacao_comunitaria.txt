@@ -1,0 +1,5 @@
+LÓGICA DE MODERAÇÃO COMUNITÁRIA
+
+1. Usuários podem votar para sinalizar conteúdos impróprios.
+2. Conteúdos com muitas sinalizações são revisados prioritariamente pelo admin.
+3. Sistema pode ocultar automaticamente conteúdos com alto número de denúncias até revisão. 

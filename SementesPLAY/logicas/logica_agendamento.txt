@@ -1,0 +1,6 @@
+LÓGICA DE AGENDAMENTO DE EVENTOS
+
+1. Cidades ou criadores podem agendar eventos (corridas, campeonatos, etc).
+2. Usuários podem se inscrever ou confirmar presença em eventos.
+3. Notificações automáticas são enviadas antes do evento.
+4. Histórico de eventos realizados e participação é mantido. 

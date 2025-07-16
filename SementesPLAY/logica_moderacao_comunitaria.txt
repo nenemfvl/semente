@@ -1,5 +1,13 @@
-LÓGICA DE MODERAÇÃO COMUNITÁRIA
 
-1. Usuários podem votar para sinalizar conteúdos impróprios.
-2. Conteúdos com muitas sinalizações são revisados prioritariamente pelo admin.
-3. Sistema pode ocultar automaticamente conteúdos com alto número de denúncias até revisão. 
+STATUS DA MODERAÇÃO COMUNITÁRIA
+- sinalizado: conteúdo recebeu denúncias da comunidade
+- em análise: admin está revisando
+- ocultado: conteúdo ocultado automaticamente
+- resolvido: ação tomada
+- rejeitado: denúncia considerada inválida
+
+O status é atualizado conforme o fluxo de denúncias e revisão. 
+
+# NECESSIDADE DE PÁGINA SEPARADA
+- Não
+- Integrar à página de moderação ou painel de admin 

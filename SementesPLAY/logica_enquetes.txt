@@ -1,5 +1,11 @@
-LÓGICA DE ENQUETES E VOTAÇÕES
 
-1. Cidades ou criadores podem criar enquetes para engajar a comunidade.
-2. Jogadores podem votar e ver resultados em tempo real.
-3. Admin pode moderar enquetes e remover abusos. 
+STATUS DA ENQUETE
+- ativa: aberta para votação
+- encerrada: votação finalizada, resultados disponíveis
+- aguardando aprovação: pendente de moderação/admin
+
+O status é atualizado conforme o ciclo de vida da enquete. Mudanças de status podem ser notificadas aos participantes. 
+
+# NECESSIDADE DE PÁGINA SEPARADA
+- Opcional
+- Pode ser página Enquetes ou componente/aba em cidades, criadores ou eventos 

@@ -1,5 +1,4 @@
-LÓGICA DE SUGESTÃO INTELIGENTE
 
-1. Sistema sugere cidades para jogadores com base em preferências, localização ou histórico.
-2. Sugere criadores para jogadores e cidades para criadores.
-3. Algoritmo de sugestão pode considerar popularidade, afinidade e engajamento. 
+# NECESSIDADE DE PÁGINA SEPARADA
+- Não
+- Sugestões aparecem como componentes em páginas de cidades, criadores, etc 

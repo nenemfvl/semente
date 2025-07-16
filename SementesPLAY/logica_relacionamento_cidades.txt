@@ -1,5 +1,4 @@
-LÓGICA DE RELACIONAMENTO ENTRE CIDADES
 
-1. Cidades podem formar parcerias, alianças ou rivalidades.
-2. Exibição de cidades parceiras/rivais nos perfis das cidades.
-3. Admin ou dono de cidade pode propor, aceitar ou encerrar relacionamentos. 
+# NECESSIDADE DE PÁGINA SEPARADA
+- Não
+- Implementar como seção dentro do perfil da cidade 
