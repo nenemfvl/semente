@@ -1,5 +1,5 @@
-// Configuração do Firebase para SementesPLAY
-import { initializeApp, getApps } from 'firebase/app';
+// Configuração do Firebase para SementesPLAY (Firebase v9+ Modular)
+import { initializeApp, getApps, getApp } from 'firebase/app';
 import { getAuth } from 'firebase/auth';
 import { getFirestore } from 'firebase/firestore';
 import { getStorage } from 'firebase/storage';
@@ -13,8 +13,11 @@ const firebaseConfig = {
   appId: process.env.NEXT_PUBLIC_FIREBASE_APP_ID,
 };
 
-const app = !getApps().length ? initializeApp(firebaseConfig) : getApps()[0];
+// Garante que só uma instância do app será criada
+const app = getApps().length ? getApp() : initializeApp(firebaseConfig);
 
 export const auth = getAuth(app);
 export const db = getFirestore(app);
-export const storage = getStorage(app); 
+export const storage = getStorage(app);
+
+// Fim da configuração do Firebase 
