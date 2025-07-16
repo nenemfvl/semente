@@ -39,4 +39,4 @@ npm run dev
 ## Observações
 - Consulte os blocos de notas em `/blocos_de_notas` para lógicas detalhadas
 - Visual dark/gamer, responsivo e moderno
-- Código pronto para expansão futura 
+- Código pronto para expansão futura \n
