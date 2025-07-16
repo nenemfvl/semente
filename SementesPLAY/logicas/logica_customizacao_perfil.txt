@@ -1,5 +1,0 @@
-LÓGICA DE CUSTOMIZAÇÃO DE PERFIL
-
-1. Usuário pode personalizar avatar, capa, descrição e links sociais.
-2. Criador e cidade podem customizar página de apresentação.
-3. Customizações são exibidas publicamente no perfil. 

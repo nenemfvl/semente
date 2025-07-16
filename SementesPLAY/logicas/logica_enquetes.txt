@@ -1,5 +1,0 @@
-LÓGICA DE ENQUETES E VOTAÇÕES
-
-1. Cidades ou criadores podem criar enquetes para engajar a comunidade.
-2. Jogadores podem votar e ver resultados em tempo real.
-3. Admin pode moderar enquetes e remover abusos. 

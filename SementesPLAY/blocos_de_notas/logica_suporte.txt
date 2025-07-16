@@ -1,0 +1,9 @@
+LÓGICA DE FEEDBACK/SUPORTE
+
+1. Usuário pode enviar dúvidas, sugestões ou problemas pelo sistema.
+2. Admin recebe e responde pelo painel de administração.
+3. Histórico de interações é mantido para consulta.
+
+# NECESSIDADE DE PÁGINA SEPARADA
+- Sim
+- Página sugerida: Suporte/Contato 

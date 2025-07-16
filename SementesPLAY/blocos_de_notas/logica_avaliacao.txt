@@ -1,0 +1,10 @@
+LÓGICA DE AVALIAÇÃO E REPUTAÇÃO
+
+1. Jogadores podem avaliar criadores e cidades (ex: estrelas, comentários).
+2. Sistema calcula reputação média e exibe nos perfis.
+3. Admin pode moderar avaliações e remover comentários inadequados.
+4. Avaliações impactam rankings e sugestões do sistema.
+
+# NECESSIDADE DE PÁGINA SEPARADA
+- Não
+- Implementar como seção dentro do perfil de cidades/criadores 

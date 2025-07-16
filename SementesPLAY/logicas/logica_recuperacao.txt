@@ -1,5 +1,0 @@
-LÓGICA DE RECUPERAÇÃO DE CONTA
-
-1. Usuário pode solicitar redefinição de senha por e-mail.
-2. Sistema envia link seguro para redefinição.
-3. (Opcional) Autenticação em dois fatores para maior segurança. 

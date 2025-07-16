@@ -1,0 +1,168 @@
+COLEÇÕES DO FIRESTORE — SementesPLAY
+====================================
+
+1. usuarios
+------------
+Campos principais:
+- uid (string, id do usuário)
+- email (string)
+- nome (string)
+- papel (string: usuario, criador, dono_cidade, admin, etc.)
+- status (string: ativo, pendente, banido, etc.)
+- preferencias (objeto)
+- criadoEm (timestamp)
+- atualizadoEm (timestamp)
+- aceiteTermos (timestamp)
+- cidadeVinculada (ref ou id)
+- criadorVinculado (ref ou id)
+Exemplo:
+{
+  uid: 'abc123',
+  email: 'user@email.com',
+  nome: 'João',
+  papel: 'usuario',
+  status: 'ativo',
+  preferencias: { darkMode: true },
+  criadoEm: ..., atualizadoEm: ...,
+  aceiteTermos: ...,
+  cidadeVinculada: 'cidade123',
+  criadorVinculado: 'criador456'
+}
+
+2. cidades
+-----------
+Campos principais:
+- id (string)
+- nome (string)
+- descricao (string)
+- imagem (url)
+- dono (ref ou id do usuário)
+- status (string: ativa, pendente, removida)
+- destaque (boolean)
+- criadoEm (timestamp)
+Exemplo:
+{
+  id: 'cidade123',
+  nome: 'Cidade RP',
+  descricao: 'Servidor top',
+  imagem: 'url',
+  dono: 'uidDono',
+  status: 'ativa',
+  destaque: true,
+  criadoEm: ...
+}
+
+3. criadores
+-------------
+Campos principais:
+- id (string)
+- nome (string)
+- redesSociais (objeto)
+- cidadeVinculada (ref ou id)
+- status (string: ativo, pendente, removido)
+- destaque (boolean)
+- criadoEm (timestamp)
+Exemplo:
+{
+  id: 'criador456',
+  nome: 'StreamerX',
+  redesSociais: { youtube: '...', twitch: '...' },
+  cidadeVinculada: 'cidade123',
+  status: 'ativo',
+  destaque: false,
+  criadoEm: ...
+}
+
+4. vinculos
+------------
+Campos principais:
+- id (string)
+- usuario (ref ou id)
+- criador (ref ou id)
+- cidade (ref ou id)
+- tipo (string: jogador_criador, criador_cidade, etc.)
+- status (string: pendente, aprovado, recusado, removido)
+- solicitadoEm (timestamp)
+- aprovadoEm (timestamp)
+Exemplo:
+{
+  id: 'vinculo789',
+  usuario: 'abc123',
+  criador: 'criador456',
+  cidade: 'cidade123',
+  tipo: 'jogador_criador',
+  status: 'aprovado',
+  solicitadoEm: ..., aprovadoEm: ...
+}
+
+5. atividades
+--------------
+Campos principais:
+- id (string)
+- tipo (string: novo_vinculo, aprovacao, destaque, etc.)
+- usuario (ref ou id)
+- descricao (string)
+- data (timestamp)
+Exemplo:
+{
+  id: 'atividade001',
+  tipo: 'novo_vinculo',
+  usuario: 'abc123',
+  descricao: 'João se vinculou ao StreamerX',
+  data: ...
+}
+
+6. notificacoes
+----------------
+Campos principais:
+- id (string)
+- usuario (ref ou id)
+- tipo (string: aprovacao, novo_vinculo, sistema, etc.)
+- mensagem (string)
+- lida (boolean)
+- data (timestamp)
+Exemplo:
+{
+  id: 'notif001',
+  usuario: 'abc123',
+  tipo: 'aprovacao',
+  mensagem: 'Seu vínculo foi aprovado!',
+  lida: false,
+  data: ...
+}
+
+7. suporte
+-----------
+Campos principais:
+- id (string)
+- usuario (ref ou id)
+- mensagem (string)
+- status (string: pendente, respondido)
+- data (timestamp)
+Exemplo:
+{
+  id: 'sup001',
+  usuario: 'abc123',
+  mensagem: 'Estou com dúvida...',
+  status: 'pendente',
+  data: ...
+}
+
+8. termos
+----------
+Campos principais:
+- versao (string)
+- texto (string)
+- criadoEm (timestamp)
+- atualizadoEm (timestamp)
+- historicoAceite (array de { usuario, data })
+Exemplo:
+{
+  versao: '1.0',
+  texto: 'Termos de uso...',
+  criadoEm: ..., atualizadoEm: ...,
+  historicoAceite: [ { usuario: 'abc123', data: ... } ]
+}
+
+---
+Essas coleções cobrem o MVP e permitem expansão para funcionalidades futuras. Para detalhes de campos avançados, consulte os blocos de notas de lógica correspondentes. 

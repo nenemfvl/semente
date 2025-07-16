@@ -1,5 +1,0 @@
-LÓGICA DE INTEGRAÇÃO COM ANALYTICS
-
-1. Sistema coleta dados de uso para análise de engajamento, retenção e pontos de melhoria.
-2. Admin pode visualizar relatórios de analytics no painel.
-3. Dados são anonimizados para garantir privacidade. 

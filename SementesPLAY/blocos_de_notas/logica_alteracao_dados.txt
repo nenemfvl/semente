@@ -1,0 +1,10 @@
+LÓGICA DE SOLICITAÇÃO DE ALTERAÇÃO DE DADOS
+
+1. Usuário pode solicitar alteração de dados sensíveis (e-mail, cidade, etc).
+2. Algumas alterações exigem aprovação do admin.
+3. Solicitações ficam registradas e podem ser acompanhadas pelo usuário.
+4. Admin aprova ou rejeita a solicitação e usuário é notificado.
+
+# NECESSIDADE DE PÁGINA SEPARADA
+- Não
+- Implementar como seção dentro do perfil/configurações 

@@ -1,0 +1,17 @@
+LÓGICA DE PAGAMENTOS E REEMBOLSOS
+
+1. Sistema registra todos os pagamentos realizados (apoios, assinaturas, etc).
+2. Usuário pode solicitar reembolso conforme regras definidas.
+3. Admin processa reembolsos e atualiza status do pagamento.
+4. Histórico financeiro detalhado é mantido para usuários e admin.
+
+STATUS DO PAGAMENTO
+- pendente: aguardando confirmação
+- pago: pagamento realizado com sucesso
+- cancelado: pagamento cancelado pelo usuário ou admin
+- reembolsado: valor devolvido ao usuário
+- falhou: erro no processamento
+
+# NECESSIDADE DE PÁGINA SEPARADA
+- Sim
+- Página sugerida: Meus Pagamentos/Assinaturas (usuário) e Gestão de Pagamentos (admin) 

@@ -1,0 +1,9 @@
+LÓGICA DE MENSAGENS AUTOMÁTICAS
+
+1. Sistema envia mensagens automáticas de boas-vindas, aniversário e lembretes de eventos.
+2. Mensagens podem ser personalizadas pelo admin.
+3. Usuário pode optar por não receber mensagens automáticas.
+
+# NECESSIDADE DE PÁGINA SEPARADA
+- Não
+- Lógica de backend, pode exibir notificações 

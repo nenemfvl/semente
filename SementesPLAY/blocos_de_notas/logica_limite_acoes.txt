@@ -1,0 +1,9 @@
+LÓGICA DE LIMITE DE AÇÕES
+
+1. Limita o número de ações (inscrições, apoios, publicações) em determinado período para evitar spam.
+2. Exemplo: máximo de 5 apoios por dia.
+3. Usuário é informado ao atingir o limite e pode tentar novamente após o período.
+
+# NECESSIDADE DE PÁGINA SEPARADA
+- Não
+- Lógica de backend, pode exibir alertas/modais 

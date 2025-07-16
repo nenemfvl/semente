@@ -1,6 +1,0 @@
-LÓGICA DE MODERAÇÃO DE CONTEÚDO
-
-1. Usuários podem denunciar conteúdos impróprios ou abusivos.
-2. Admin recebe denúncias e pode revisar o conteúdo denunciado.
-3. Admin pode remover conteúdo, advertir ou banir usuários envolvidos.
-4. Histórico de denúncias e ações tomadas é mantido para consulta. 

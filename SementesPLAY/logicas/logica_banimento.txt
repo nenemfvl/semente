@@ -1,6 +1,0 @@
-LÓGICA DE BANIMENTO/SUSPENSÃO
-
-1. Admin pode suspender ou banir usuários por violação de regras.
-2. Usuário suspenso perde acesso a áreas restritas, mas pode recorrer.
-3. Usuário banido perde acesso total ao sistema.
-4. Todas as ações são registradas no histórico do usuário. 

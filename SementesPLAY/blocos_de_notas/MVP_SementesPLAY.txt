@@ -1,0 +1,89 @@
+Stack, Arquitetura e Tecnologias
+===============================
+
+Stack Principal
+---------------
+- **Frontend:** Next.js (React)
+- **Estilização:** TailwindCSS
+- **Animações:** Framer Motion
+- **Backend/Banco de Dados:** Firebase (Auth, Firestore, Storage)
+- **Hospedagem/Deploy:** Vercel (Frontend) e Firebase Hosting (se necessário para assets)
+- **Gerenciamento de Estado:** Context API ou Zustand (opcional)
+- **Controle de Versão:** Git + GitHub
+
+Arquitetura
+-----------
+- SPA/SSR com Next.js para melhor performance e SEO
+- Firebase para autenticação, banco de dados em tempo real e armazenamento de arquivos
+- Deploy contínuo via Vercel (integração automática com GitHub)
+- Estrutura modular de páginas e componentes
+- Design responsivo e moderno (Glassmorphism + gradientes)
+
+Hospedagem e Deploy
+-------------------
+- **Frontend:** Vercel (deploy automático a cada push no main)
+- **Backend e Banco:** Firebase (Firestore, Auth, Storage)
+- **Domínio personalizado** (configurado na Vercel)
+- **Certificado SSL** incluso na Vercel
+
+Funcionalidades Essenciais do MVP
+---------------------------------
+1. Cadastro e Login de Usuário
+   - Cadastro com e-mail e senha
+   - Login e recuperação de senha
+   - Perfil básico editável
+
+2. Página Principal Pública
+   - Apresentação do projeto
+   - Chamada para ação (login/cadastro)
+   - Lista de cidades e criadores em destaque (dados dinâmicos)
+
+3. Gestão de Perfis
+   - Usuário comum pode solicitar ser criador de conteúdo ou dono de cidade
+   - Aprovação manual pelo admin
+   - Painel do usuário muda conforme o papel (usuário comum, criador, dono de cidade)
+
+4. Vínculo Jogador ↔ Criador ↔ Cidade
+   - Jogador pode se vincular a criadores e cidades
+   - Criador pode se vincular a cidades
+   - Dono de cidade pode aprovar vínculos
+
+5. Feed de Atividades
+   - Exibição de atividades recentes (novos vínculos, aprovações, destaques)
+
+6. Notificações
+   - Notificações básicas para aprovações, novos vínculos e mensagens do sistema
+
+7. Painel do Admin
+   - Aprovação de solicitações de novos papéis
+   - Visualização e gestão de usuários
+
+8. Página de Suporte/Contato
+   - Formulário para envio de dúvidas ou problemas
+
+9. Termos de Uso e Consentimento
+   - Aceite obrigatório no cadastro
+
+Funcionalidades NÃO essenciais para o MVP (para versões futuras)
+---------------------------------------------------------------
+- Pagamentos e assinaturas
+- Enquetes e votações
+- Mensagens internas entre usuários
+- Gamificação (badges, ranking)
+- Backup e recuperação de dados
+- Multi-idioma
+- API e integrações externas
+- Estatísticas públicas/ranking avançado
+- Onboarding/tutorial interativo
+- Moderação comunitária avançada
+
+Resumo do MVP
+-------------
+O MVP do SementesPLAY permite:
+- Usuários se cadastrarem, logarem e editarem seu perfil
+- Solicitar e aprovar papéis de criador/dono de cidade
+- Jogadores, criadores e cidades se vincularem
+- Exibir feed de atividades e notificações básicas
+- Admin gerenciar aprovações e usuários
+- Usuários entrarem em contato via suporte
+- Garantir aceite dos termos de uso 

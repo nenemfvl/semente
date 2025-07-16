@@ -1,0 +1,9 @@
+LÓGICA DE AUDITORIA DE AÇÕES SENSÍVEIS
+
+1. Todas as ações importantes (remoção de criador, alteração de permissões, exclusão de dados) são registradas.
+2. Admin pode consultar o histórico de ações sensíveis para cada usuário.
+3. Auditoria ajuda a identificar abusos ou erros administrativos.
+
+# NECESSIDADE DE PÁGINA SEPARADA
+- Sim
+- Página sugerida: Auditoria (Admin) 

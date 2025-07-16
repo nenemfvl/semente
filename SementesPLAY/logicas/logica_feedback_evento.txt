@@ -1,5 +1,0 @@
-LÓGICA DE FEEDBACK PÓS-EVENTO
-
-1. Após participação em eventos, usuários recebem convite para avaliar o evento.
-2. Feedback é coletado e pode ser visualizado por admin e organizadores.
-3. Sugestões ajudam a melhorar eventos futuros. 

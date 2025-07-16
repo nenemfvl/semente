@@ -1,0 +1,115 @@
+FUNCIONALIDADES DO PROJETO SEMENTESPLAY
+
+1. Cadastro e Perfis de Usuário
+- Cadastro de novos usuários.
+- Perfis dinâmicos: usuário comum, criador de conteúdo, parceiro, dono de cidade, apoiador, admin.
+- Customização de perfil (avatar, capa, descrição, links sociais).
+- Solicitação e aprovação de novos papéis (criador, parceiro, dono de cidade).
+
+2. Gestão de Vínculos
+- Jogadores podem se vincular/desvincular de cidades e criadores.
+- Criadores podem se vincular/desvincular de cidades.
+- Donos de cidade podem aprovar ou remover vínculos.
+- Histórico de vínculos e desvínculos.
+
+3. Pagamentos, Assinaturas e Planos
+- Pagamento de assinaturas e apoios.
+- Upgrade/downgrade de planos.
+- Solicitação e processamento de reembolsos.
+- Histórico financeiro detalhado.
+- Status de pagamento (pendente, pago, cancelado, reembolsado, falhou).
+
+4. Eventos e Agenda
+- Agendamento de eventos por cidades ou criadores.
+- Inscrição e confirmação de presença em eventos.
+- Notificações automáticas antes do evento.
+- Feedback pós-evento.
+- Histórico de eventos realizados e participação.
+
+5. Enquetes e Votações
+- Criação de enquetes por cidades ou criadores.
+- Votação e visualização de resultados em tempo real.
+- Moderação de enquetes.
+
+6. Relato e Gestão de Problemas
+- Usuários podem relatar problemas em cidades ou com criadores.
+- Admins e donos de cidade recebem, analisam e resolvem problemas.
+- Histórico de problemas reportados e resolvidos.
+
+7. Moderação e Denúncias
+- Usuários podem denunciar conteúdos impróprios.
+- Moderação por admins e moderação comunitária.
+- Histórico de denúncias e ações tomadas.
+
+8. Feed de Atividades
+- Exibição de atividades recentes: novos vínculos, eventos, conquistas, publicações.
+- Feed personalizado para cada usuário.
+
+9. Avaliação e Reputação
+- Jogadores podem avaliar criadores e cidades (estrelas, comentários).
+- Sistema de reputação exibido nos perfis.
+- Moderação de avaliações.
+
+10. Favoritos e Seguindo
+- Jogadores podem favoritar cidades e criadores.
+- Criadores podem favoritar cidades.
+- Lista de favoritos/seguidos disponível no perfil.
+
+11. Sugestão Inteligente
+- Sugestão de cidades e criadores baseada em preferências, localização e histórico.
+
+12. Estatísticas Públicas e Rankings
+- Exibição de rankings de cidades, criadores, eventos mais acessados.
+- Estatísticas atualizadas em tempo real.
+
+13. Mensagens Internas
+- Sistema de mensagens entre usuários (inbox).
+- Notificações para novas mensagens.
+- Histórico de conversas.
+
+14. Notificações
+- Notificações para eventos importantes (aprovação, novos seguidores, mensagens, mudanças de status).
+- Notificações em tempo real (push).
+
+15. Gamificação
+- Pontuação, badges, conquistas por ações (apoiar, publicar, convidar amigos).
+- Ranking de usuários.
+
+16. Backup e Recuperação
+- Backup de dados do usuário e do sistema.
+- Recuperação de conteúdos excluídos (dentro do prazo).
+
+17. Limite de Ações
+- Limite de ações (inscrições, apoios, publicações) para evitar spam.
+
+18. Onboarding
+- Tutorial ou tour interativo para novos usuários.
+
+19. Multi-idioma
+- Sistema disponível em múltiplos idiomas.
+- Seletor de idioma no menu/cabeçalho.
+
+20. Permissões e Papéis
+- Controle de permissões por papel (usuário, criador, parceiro, dono de cidade, admin).
+- Admin pode conceder/remover papéis.
+
+21. Auditoria
+- Registro de todas as ações administrativas e sensíveis.
+- Logs acessíveis para admins.
+
+22. API e Integrações
+- Integração com APIs externas (redes sociais, pagamentos, analytics).
+- Controle de tokens e permissões de API.
+
+23. Suporte/Contato
+- Usuário pode enviar dúvidas, sugestões ou problemas.
+- Admin responde pelo painel.
+- Histórico de interações.
+
+24. Termos de Uso e Consentimento
+- Aceite obrigatório dos termos de uso e política de privacidade.
+- Registro de consentimento.
+
+25. Recuperação de Conta
+- Redefinição de senha por e-mail.
+- (Opcional) Autenticação em dois fatores. 

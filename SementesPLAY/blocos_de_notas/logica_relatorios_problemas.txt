@@ -1,0 +1,16 @@
+LÓGICA DE RELATÓRIOS DE PROBLEMAS
+
+1. Jogador pode reportar problemas em cidades ou com criadores.
+2. Admin e donos de cidade recebem relatórios e podem resolver ou responder.
+3. Histórico de problemas reportados e resolvidos é mantido.
+
+STATUS DO RELATÓRIO DE PROBLEMA
+- aberto: problema reportado, aguardando análise
+- em análise: admin ou dono da cidade está revisando
+- resolvido: problema solucionado
+- fechado: relatório encerrado sem solução
+- rejeitado: denúncia considerada inválida
+
+# NECESSIDADE DE PÁGINA SEPARADA
+- Sim
+- Página sugerida: Relatar Problema (usuário) e Problemas Reportados (admin/dono de cidade) 

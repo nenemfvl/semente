@@ -1,4 +1,0 @@
-
-# NECESSIDADE DE PÁGINA SEPARADA
-- Não
-- Sugestões aparecem como componentes em páginas de cidades, criadores, etc 

@@ -1,0 +1,9 @@
+LÓGICA DE GAMIFICAÇÃO
+
+1. Usuários ganham pontos, badges e conquistas por ações (apoiar, publicar, convidar amigos, etc).
+2. Ranking é atualizado automaticamente conforme pontuação.
+3. Recompensas podem ser desbloqueadas ao atingir metas.
+
+# NECESSIDADE DE PÁGINA SEPARADA
+- Opcional
+- Pode ser uma página “Conquistas/Badges” ou seção no perfil 

@@ -1,5 +1,0 @@
-LÓGICA DE HISTÓRICO DE ATIVIDADES
-
-1. Todas as ações importantes do usuário são registradas (apoios, publicações, solicitações, etc).
-2. Usuário pode visualizar seu histórico no painel.
-3. Admin pode consultar histórico de qualquer usuário. 

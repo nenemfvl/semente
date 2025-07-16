@@ -1,5 +1,0 @@
-LÓGICA DE RELATÓRIOS E ESTATÍSTICAS
-
-1. Relatórios disponíveis para admin, criadores, parceiros e donos de cidade.
-2. Estatísticas de uso, engajamento, apoios, publicações, etc.
-3. Relatórios podem ser exportados em PDF/CSV. 

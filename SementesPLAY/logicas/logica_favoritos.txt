@@ -1,6 +1,0 @@
-LÓGICA DE FAVORITOS/SEGUINDO
-
-1. Jogador pode favoritar cidades e criadores.
-2. Criador pode favoritar cidades.
-3. Lista de favoritos/seguidos disponível no perfil do usuário.
-4. Notificações opcionais para novidades dos favoritos. 

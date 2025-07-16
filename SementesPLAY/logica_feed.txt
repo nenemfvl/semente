@@ -1,4 +1,0 @@
-
-# NECESSIDADE DE PÁGINA SEPARADA
-- Sim
-- Página sugerida: Feed de Atividades (usuário) 

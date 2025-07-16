@@ -1,5 +1,0 @@
-LÓGICA DE BACKUP E RECUPERAÇÃO DE DADOS
-
-1. Sistema realiza backups automáticos dos dados em intervalos regulares.
-2. Backups podem ser restaurados em caso de falha ou perda de dados.
-3. Admin pode solicitar restauração de backup pelo painel. 

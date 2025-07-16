@@ -1,0 +1,28 @@
+LÓGICA DE APROVAÇÃO/REPROVAÇÃO DE PERFIS
+
+1. Usuário solicita novo papel (Criador, Parceiro, Dono de Cidade) pelo site.
+2. Solicitação fica pendente para análise do administrador.
+3. Administrador pode aprovar (usuário recebe novo papel, painel é atualizado) ou reprovar (usuário é notificado, permanece com papel anterior).
+4. Usuário recebe notificação automática sobre o status da solicitação.
+5. Todas as decisões ficam registradas no histórico do usuário.
+
+STATUS DA SOLICITAÇÃO
+- pendente: aguardando análise do admin
+- aprovada: papel concedido ao usuário
+- reprovada: solicitação negada
+- em análise: admin está revisando
+
+# EXEMPLO PRÁTICO
+Usuário João deseja ser criador de conteúdo. Ele acessa seu painel, solicita o novo papel e aguarda. O admin recebe a solicitação, revisa e aprova. João recebe notificação e seu painel muda para o de criador.
+
+# DEPENDÊNCIAS
+- logica_notificacoes.txt
+- logica_historico.txt
+
+# NECESSIDADE DE PÁGINA SEPARADA
+- Sim
+- Página sugerida: Gestão de Solicitações (admin)
+- Para o usuário: seção no painel/perfil mostrando status das solicitações
+
+# HISTÓRICO DE ALTERAÇÕES
+- 2024-06-10: Adicionado exemplo prático, dependências e histórico de alterações. 

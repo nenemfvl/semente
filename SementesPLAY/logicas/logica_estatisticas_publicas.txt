@@ -1,5 +1,0 @@
-LÓGICA DE ESTATÍSTICAS PÚBLICAS
-
-1. Sistema exibe estatísticas gerais: cidades mais populares, criadores mais seguidos, eventos mais acessados.
-2. Estatísticas são atualizadas em tempo real ou em intervalos definidos.
-3. Usuários podem filtrar e visualizar rankings públicos. 

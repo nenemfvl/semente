@@ -1,7 +1,0 @@
-LÓGICA DE VÍNCULO E DESVÍNCULO
-
-1. Jogador pode se vincular ou desvincular de cidades e criadores pelo perfil.
-2. Criador pode se vincular ou desvincular de cidades.
-3. Dono de cidade pode aprovar ou remover vínculos de criadores e jogadores.
-4. Sistema registra histórico de vínculos e desvínculos.
-5. Notificações são enviadas para todas as partes envolvidas em novos vínculos ou desvínculos. 

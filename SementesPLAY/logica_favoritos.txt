@@ -1,4 +1,0 @@
-
-# NECESSIDADE DE PÁGINA SEPARADA
-- Não
-- Implementar como seção no perfil do usuário 

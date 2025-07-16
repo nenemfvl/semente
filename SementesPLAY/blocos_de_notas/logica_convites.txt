@@ -1,0 +1,10 @@
+LÓGICA DE CONVITES E INDICAÇÕES
+
+1. Usuário pode convidar amigos para a plataforma via link ou e-mail.
+2. Cada convite aceito gera recompensas para o usuário que convidou.
+3. Sistema registra convites enviados, aceitos e recompensas concedidas.
+4. Limite de convites e regras de uso podem ser definidos pelo admin.
+
+# NECESSIDADE DE PÁGINA SEPARADA
+- Não
+- Implementar como seção no perfil do usuário 

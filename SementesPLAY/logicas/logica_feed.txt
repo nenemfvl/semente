@@ -1,5 +1,0 @@
-LÓGICA DE FEED DE ATIVIDADES
-
-1. Sistema exibe feed com atividades recentes: novos vínculos, eventos, conquistas, publicações de criadores.
-2. Feed é personalizado para cada usuário, mostrando atividades relevantes.
-3. Usuário pode filtrar ou ocultar tipos de atividades no feed. 

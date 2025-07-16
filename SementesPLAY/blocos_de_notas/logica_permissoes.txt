@@ -1,0 +1,10 @@
+LÓGICA DE PERMISSÕES
+
+1. Cada papel (usuário comum, criador, apoiador, parceiro, dono de cidade, admin) tem permissões específicas.
+2. Usuário pode acumular múltiplos papéis, somando permissões.
+3. Admin pode conceder ou remover papéis/permissões manualmente.
+4. Permissões determinam acesso a páginas, funcionalidades e dados.
+
+# NECESSIDADE DE PÁGINA SEPARADA
+- Não
+- Permissões são gerenciadas via páginas de administração de usuários 

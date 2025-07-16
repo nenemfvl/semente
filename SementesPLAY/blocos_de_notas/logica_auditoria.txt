@@ -1,0 +1,9 @@
+LÓGICA DE AUDITORIA DO SISTEMA
+
+1. Todas as ações administrativas são registradas (aprovações, banimentos, alterações).
+2. Logs de auditoria são acessíveis apenas para administradores.
+3. Auditoria permite rastrear quem fez cada ação e quando.
+
+# NECESSIDADE DE PÁGINA SEPARADA
+- Sim
+- Página sugerida: Auditoria (acesso para administradores) 

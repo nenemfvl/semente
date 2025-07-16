@@ -1,0 +1,15 @@
+LÓGICA DE RECUPERAÇÃO DE CONTEÚDO EXCLUÍDO
+
+1. Conteúdos excluídos ficam disponíveis para recuperação por tempo limitado (ex: 7 dias).
+2. Admin (ou usuário, se permitido) pode restaurar conteúdos apagados acidentalmente.
+3. Após o prazo, conteúdo é removido permanentemente.
+
+STATUS DO CONTEÚDO EXCLUÍDO
+- excluído: conteúdo removido, disponível para recuperação
+- disponível para recuperação: dentro do prazo para restauração
+- restaurado: conteúdo recuperado
+- removido permanentemente: não pode mais ser restaurado
+
+# NECESSIDADE DE PÁGINA SEPARADA
+- Não
+- Implementar como seção "Conteúdos Excluídos" no painel do usuário/admin 

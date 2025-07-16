@@ -1,5 +1,0 @@
-LÓGICA DE NOTIFICAÇÕES EM TEMPO REAL
-
-1. Notificações são enviadas instantaneamente para eventos importantes (comentários, aprovações, novos eventos, etc).
-2. Implementação pode ser feita com WebSockets ou Firebase Cloud Messaging.
-3. Usuário pode configurar preferências de recebimento de notificações. 
