@@ -1,0 +1,5 @@
+LÓGICA DE API E INTEGRAÇÕES
+
+1. Sistema permite integração com APIs externas (redes sociais, pagamentos, analytics).
+2. Controle de tokens e permissões de acesso à API.
+3. Logs de uso e auditoria das integrações. 

@@ -1,0 +1,5 @@
+LÓGICA DE EXPIRAÇÃO DE SESSÃO
+
+1. Sessões inativas são encerradas automaticamente após tempo definido (ex: 30 minutos).
+2. Usuário é notificado antes do encerramento e pode renovar a sessão.
+3. Expiração aumenta a segurança do sistema. 

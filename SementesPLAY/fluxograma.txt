@@ -1,0 +1,133 @@
+INÍCIO
+│
+├── Navbar fixo (presente em todas as páginas)
+│   ├── Fundo escuro/moderno (preto ou gradiente)
+│   ├── Logo do sistema à esquerda (imagem ou SVG)
+│   ├── Nome do sistema ao lado do logo, com fonte moderna
+│   ├── Menu centralizado com links para:
+│   │   ├── Principal
+│   │   ├── Status de Patrocinador
+│   │   ├── Salão
+│   │   ├── Criadores
+│   │   ├── Apoiador
+│   │   ├── Ranking
+│   │   ├── FAQ
+│   │   ├── Inscrição para ser Influenciador
+│   ├── Botão “Entrar” à direita, sublinhado
+│   ├── Ícone de usuários à direita do botão “Entrar”
+│   ├── Ícone de idioma à direita do botão “Entrar”
+│   ├── Destaque visual para a página ativa (cor diferente)
+│   ├── Espaçamento generoso entre os itens
+│   ├── Navbar permanece fixa no topo ao rolar a página
+│   ├── Não recarrega ou pisca ao trocar de página (layout persistente)
+│   ├── Responsiva (adapta para mobile com menu colapsável)
+│
+├── Página Principal (PÚBLICA, DINÂMICA - usa banco de dados firebase)
+│   ├── Apresentação do projeto com Glassmorphism e gradiente moderno (dinâmico)
+│   ├── Chamada para ação (Login/Cadastro)
+│   ├── Parceiros e apoiadores (dados do banco)
+│   ├── Destaques de criadores (dados do banco)
+│   ├── Links rápidos:
+│   │   ├── FAQ
+│   │   ├── Salão
+│   │   ├── Criadores
+│   │   └── Inscrição para ser Influenciador
+│
+├── Login/Cadastro (Firebase)
+│   ├── Login com e-mail/senha
+│   ├── Login social (Google, Facebook, etc)
+│   ├── Recuperação de senha
+│   └── Cadastro de novo usuário
+│
+├── Dashboard do Usuário (após login)
+│   ├── Resumo do perfil (foto, nome, status)
+│   ├── Notificações
+│   ├── Atalhos para:
+│   │   ├── Status de Patrocinador
+│   │   ├── Salão
+│   │   ├── Criadores
+│   │   ├── Apoiador
+│   │   ├── Ranking
+│   │   ├── FAQ
+│   │   ├── Inscrição para ser Influenciador
+│   │   └── Administração (ADM) [se for admin]
+│   └── Botão de Sair
+│
+├── Status de Patrocinador
+│   ├── Nível atual do usuário
+│   ├── Benefícios do nível
+│   ├── Histórico de patrocínios
+│   ├── Progresso para próximo nível
+│   └── Botão para patrocinar criadores
+│
+├── Salão
+│   ├── Lista de eventos ao vivo
+│   ├── Chat em tempo real
+│   ├── Destaques de criadores
+│   └── Agenda de eventos
+│
+├── Criadores
+│   ├── Lista de criadores
+│   ├── Filtros (categoria, popularidade, novos, etc)
+│   ├── Busca por nome/categoria
+│   ├── Destaques/top criadores
+│   └── Acesso ao Perfil Criadores
+│
+│   └── Perfil Criadores (subpágina)
+│       ├── Foto, bio, redes sociais
+│       ├── Projetos/vídeos
+│       ├── Número de apoiadores
+│       ├── Ranking do criador
+│       ├── Botão para patrocinar
+│       └── Comentários/avaliações
+│
+│   └── Patrocinar Criadores (subpágina)
+│       ├── Escolha de valor
+│       ├── Métodos de pagamento
+│       ├── Benefícios do patrocínio
+│       ├── Histórico de apoio
+│       └── Confirmação de patrocínio
+│
+├── Apoiador
+│   ├── Resumo dos apoios realizados
+│   ├── Recompensas recebidas
+│   ├── Ranking de apoiadores
+│   └── Status de patrocinador
+│
+├── Ranking
+│   ├── Top criadores
+│   ├── Top apoiadores
+│   ├── Filtros por período/categoria
+│   └── Gamificação (badges, conquistas)
+│
+├── FAQ (subpágina)
+│   ├── Perguntas frequentes
+│   ├── Busca por palavra-chave
+│   └── Formulário de contato/suporte
+│
+├── Inscrição para ser Influenciador (subpágina)
+│   ├── Formulário de inscrição
+│   ├── Requisitos para ser influenciador
+│   ├── Upload de documentos/portfólio
+│   ├── Acompanhamento do status da inscrição
+│   └── Contato para dúvidas
+│
+├── Administração (ADM) (acesso restrito)
+│   ├── Gestão de Usuários
+│   │   ├── Listar, editar, remover usuários
+│   │   └── Definir permissões
+│   ├── Gestão de Criadores
+│   │   ├── Aprovar/reprovar inscrições
+│   │   ├── Editar perfis
+│   │   └── Remover criadores
+│   ├── Gestão de Patrocínios
+│   │   ├── Visualizar histórico
+│   │   ├── Gerenciar pagamentos
+│   │   └── Resolver disputas
+│   ├── Relatórios
+│   │   ├── Relatórios de uso
+│   │   ├── Relatórios financeiros
+│   │   └── Exportar dados
+│   └── Configurações do sistema
+│
+└── Sair (logout) 

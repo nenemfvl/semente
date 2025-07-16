@@ -1,0 +1,6 @@
+LÓGICA DE MENSAGENS INTERNAS
+
+1. Usuários podem enviar mensagens uns aos outros pelo sistema.
+2. Mensagens são moderadas pelo admin (opcional).
+3. Notificações são geradas para novas mensagens.
+4. Histórico de conversas é mantido. 

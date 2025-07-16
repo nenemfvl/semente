@@ -1,0 +1,9 @@
+LÓGICA DE APROVAÇÃO/REPROVAÇÃO DE PERFIS
+
+1. Usuário solicita novo papel (Criador, Parceiro, Dono de Cidade) pelo site.
+2. Solicitação fica pendente para análise do administrador.
+3. Administrador pode:
+   - Aprovar (usuário recebe novo papel, painel é atualizado)
+   - Reprovar (usuário é notificado, permanece com papel anterior)
+4. Usuário recebe notificação automática sobre o status da solicitação.
+5. Todas as decisões ficam registradas no histórico do usuário. 

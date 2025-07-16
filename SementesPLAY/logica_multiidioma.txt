@@ -1,0 +1,6 @@
+LÓGICA DE MULTI-IDIOMA
+
+1. Sistema permite alternar entre diferentes idiomas.
+2. Detecção automática do idioma do navegador do usuário.
+3. Tradução de conteúdos dinâmicos e estáticos.
+4. Admin pode adicionar ou remover idiomas disponíveis. 

@@ -1,0 +1,6 @@
+LÓGICA DE ONBOARDING
+
+1. Após o cadastro, o usuário é direcionado para um tutorial ou tour interativo.
+2. O tutorial apresenta as principais funções do site e como navegar.
+3. Usuário pode pular ou concluir o onboarding a qualquer momento.
+4. O status do onboarding é salvo para não ser exibido novamente ao mesmo usuário. 

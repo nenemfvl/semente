@@ -1,0 +1,5 @@
+LÓGICA DE UPGRADE/DOWNGRADE DE PLANOS
+
+1. Usuário pode trocar de plano (ex: mensal para anual) a qualquer momento.
+2. Sistema calcula valores proporcionais e atualiza permissões automaticamente.
+3. Histórico de trocas de plano é mantido para consulta. 

@@ -1,0 +1,5 @@
+LÓGICA DE TERMOS DE USO E CONSENTIMENTO
+
+1. Usuário deve aceitar os termos de uso e política de privacidade ao se cadastrar.
+2. Sistema registra data e versão do aceite.
+3. Alterações nos termos exigem novo aceite dos usuários. 

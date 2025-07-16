@@ -1,0 +1,6 @@
+LÓGICA DE PAGAMENTOS E REEMBOLSOS
+
+1. Sistema registra todos os pagamentos realizados (apoios, assinaturas, etc).
+2. Usuário pode solicitar reembolso conforme regras definidas.
+3. Admin processa reembolsos e atualiza status do pagamento.
+4. Histórico financeiro detalhado é mantido para usuários e admin. 

@@ -1,0 +1,39 @@
+FLUXOGRAMA DE LÓGICAS DE PERFIS DE USUÁRIO
+
+INÍCIO
+│
+├── Cadastro de Usuário
+│   ├── Todo usuário inicia como Usuário Comum
+│   ├── Perfil básico: nome, e-mail, foto, etc
+│   ├── Permissões: navegar, apoiar criadores, editar perfil
+│
+├── Evolução de Perfil
+│   ├── Usuário pode solicitar novos papéis:
+│   │   ├── Criador de Conteúdo
+│   │   │   ├── Solicita pelo site
+│   │   │   ├── Passa por aprovação do admin
+│   │   │   ├── Se aprovado, painel de criador é liberado
+│   │   │   ├── Permissões: publicar conteúdo, ver estatísticas, gerenciar seguidores
+│   │   ├── Parceiro
+│   │   │   ├── Solicita pelo site
+│   │   │   ├── Passa por aprovação do admin
+│   │   │   ├── Se aprovado, painel de parceiro é liberado
+│   │   │   ├── Permissões: ver relatórios de parceria, gerenciar campanhas
+│   │   ├── Dono de Cidade
+│   │   │   ├── Solicita pelo site
+│   │   │   ├── Passa por aprovação do admin
+│   │   │   ├── Se aprovado, painel de gestão da cidade é liberado
+│   │   │   ├── Permissões: gerenciar cidade, ver relatórios, comunicação local
+│
+├── Apoiador
+│   ├── Qualquer usuário que realiza apoio/patrocínio
+│   ├── Permissões: ver histórico de apoios, recompensas, ranking de apoiadores
+│
+├── Administrador
+│   ├── Usuário com acesso total ao sistema
+│   ├── Permissões: aprovar perfis, gerenciar usuários, ver todos os relatórios, configurar sistema
+│
+├── Observações
+│   ├── Um usuário pode ter múltiplos papéis ao mesmo tempo
+│   ├── O painel e permissões mudam conforme os papéis ativos
+│   ├── Perfis podem ser removidos ou alterados pelo admin 

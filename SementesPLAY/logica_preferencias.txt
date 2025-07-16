@@ -1,0 +1,6 @@
+LÓGICA DE PREFERÊNCIAS E PRIVACIDADE
+
+1. Usuário pode definir preferências de comunicação e notificações.
+2. Usuário pode escolher quem pode ver seu perfil e enviar mensagens.
+3. Configurações de privacidade podem ser alteradas a qualquer momento.
+4. Admin pode definir políticas globais de privacidade. 

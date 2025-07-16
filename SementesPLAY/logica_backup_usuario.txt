@@ -1,0 +1,5 @@
+LÓGICA DE BACKUP DE DADOS DO USUÁRIO
+
+1. Usuário pode solicitar download de seus dados (perfil, histórico de apoios, etc).
+2. Sistema gera arquivo (ex: .zip ou .json) com os dados solicitados.
+3. Processo em conformidade com LGPD/GDPR. 

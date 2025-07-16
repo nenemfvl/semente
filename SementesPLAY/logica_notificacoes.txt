@@ -1,0 +1,11 @@
+LÓGICA DE NOTIFICAÇÕES
+
+1. Notificações são geradas para eventos importantes:
+   - Aprovação/reprovação de perfil
+   - Novos seguidores
+   - Novos apoiadores
+   - Mensagens recebidas
+   - Mudanças de status
+2. Notificações são exibidas no painel do usuário.
+3. Usuário pode marcar notificações como lidas.
+4. Histórico de notificações é mantido para consulta. 
